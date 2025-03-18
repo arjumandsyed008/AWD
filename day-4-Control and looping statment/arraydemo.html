@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>array</title>
+</head>
+<body>
+    <script>
+        // array
+        /*
+        let empnames=["Eda","Kozan","Alina","Mert"]
+        console.log(empnames,typeof(empnames))
+        let a=[]
+        console.log(a,typeof(a))
+        a.push("Apple") //push method add new element to array
+        console.log(a)
+        empnames.push("Anju")
+        console.log(empnames)
+        a.unshift("kiwi")
+        console.log(a)
+        empnames.unshift("Melo")
+        console.log(empnames)
+        let x=[]
+        x[6]="red" // add element at given index position
+        console.log(x)
+        x[3]="black"
+        console.log(x)
+        console.log(empnames[2]);// accessing element at index position
+        //removing element from array
+        empnames.pop()
+        console.log(empnames) // remove last element
+        empnames.shift()
+        console.log(empnames) // remove first element
+        delete empnames[2]
+        console.log(empnames)
+        */
+       // array wrting type-2 by using new keywords
+       let colors = new Array();
+       colors[0]="red"
+       colors.push("green")
+       colors.unshift("blue")
+       console.log(colors)
+       for(let i = 0; i < colors.length; i++) 
+       {
+            console.log(colors[i])
+        }
+        for(let i in colors)
+        {
+            console.log(i,colors[i])
+        }
+        for (let i of colors) 
+        {
+            console.log(i)
+        }
+       //Traversing array element array 
+       colors.forEach(i=>{
+        console.log(i)
+       })
+
+        
+
+        
+
+
+    </script>
+</body>
+</html>
